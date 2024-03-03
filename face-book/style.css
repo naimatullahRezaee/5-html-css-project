@@ -438,3 +438,58 @@ nav {
 	padding: 10px 0 20px;
 	font-size: 13px;
 }
+
+.setting-menu {
+	position: absolute;
+	width: 22.4%;
+	max-width: 350px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	overflow: hidden;
+	top: 110%;
+	right: 5%;
+	max-height: 0;
+	transition: max-height 0.3s;
+}
+
+.setting-menu-height {
+	max-height: 450px;
+}
+
+.user-profile a {
+	font-size: 12px;
+	color: #1876f2;
+	text-decoration: none;
+}
+
+.setting-menu-inner {
+	padding: 20px;
+}
+
+.setting-menu hr {
+	border: 0;
+	height: 1px;
+	background: #9a9a9a;
+	margin: 15px 0;
+}
+
+.setting-links {
+	display: flex;
+	align-items: center;
+	margin: 15px 0;
+}
+.setting-links .setting-icon {
+	width: 38px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
+.setting-links a {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: space-between;
+	text-decoration: none;
+	color: #626262;
+}
