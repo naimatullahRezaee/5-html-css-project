@@ -790,3 +790,23 @@ nav {
 		padding-left: 0;
 	}
 }
+
+/* =============== Media Query for profile page ============== */
+
+@media (max-width: 900px) {
+	.profile-container {
+		padding: 20px 5%;
+	}
+	.profile-details {
+		flex-wrap: wrap;
+	}
+
+	.profile-detail-right {
+		text-align: left;
+		margin-top: 15px;
+	}
+	.profile-details button {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+}
